@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Front End</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Sample<span>Site</span></h1>
+        <button id="modalbtn" class= "button"><img src="cart.png" alt=""></button>
+    </header>
+    <div id=carousel class="slider">
+            <div class="slide active">
+              <img src="1.jpg" alt="">
+              <div class="info">
+                <h2>Slide 01</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="2.jpg" alt="">
+              <div class="info">
+                <h2>Slide 02</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="3.jpg" alt="">
+              <div class="info">
+                <h2>Slide 03</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="4.jpg" alt="">
+              <div class="info">
+                <h2>Slide 04</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="5.jpg" alt="">
+              <div class="info">
+                <h2>Slide 05</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="navigation">
+              <div class="btn active"></div>
+              <div class="btn"></div>
+              <div class="btn"></div>
+              <div class="btn"></div>
+              <div class="btn"></div>
+            </div>
+    </div>
+    <div id="cartmodal" class="modal">
+        <div class="modalcontent">
+            <span class="closemodal">&times</span>
+            <p>Modal
+            </p>
+        </div>
+    </div>
+    <div class= "container" >
+        <div class="product1">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname1">ProductName</p>
+                <p class="prodbrand1">ProductBrand</p>
+                <p class="prodprice1">Price</p>
+                <button class = orderbtn id= "orderbtn1" onclick= "duplicate()">Order</button>
+            </div>
+        </div>
+        <div class="product 2">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname2"></p>
+                <p class="prodbrand2">ProductBrand</p>
+                <p class="prodprice2"></p>
+                <button class = orderbtn id= "orderbtn2">Order</button>
+            </div>
+        </div>
+        <div class="product 3">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname3"></p>
+                <p class="prodbrand3">ProductBrand</p>
+                <p class="prodprice3"></p>
+                <button class = orderbtn id= "orderbtn3">Order</button>
+            </div>
+        </div>
+        <div class="product 4">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname4"></p>
+                <p class="prodbrand4">ProductBrand</p>
+                <p class="prodprice4"></p>
+                <button class = orderbtn id= "orderbtn4">Order</button>
+            </div>
+        </div>
+        <div class="product 5">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname5"></p>
+                <p class="prodbrand5">ProductBrand</p>
+                <p class="prodprice5"></p>
+                <button class = orderbtn id= "orderbtn5">Order</button>
+            </div>
+        </div>
+        <div class="product 6">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname6"></p>
+                <p class="prodbrand6">ProductBrand</p>
+                <p class="prodprice6"></p>
+                <button class = orderbtn id= "orderbtn6">Order</button>
+            </div>
+        </div>
+        <div class="product 7">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname7"></p>
+                <p class="prodbrand7">ProductBrand</p>
+                <p class="prodprice7"></p>
+                <button class = orderbtn id= "orderbtn7">Order</button>
+            </div>
+        </div>
+        <div class="product 8">
+            <img class="prodimg" src="image.png" alt="">
+            <div class= "proddetails">
+                <p id="prodname8"></p>
+                <p class="prodbrand8">ProductBrand</p>
+                <p class="prodprice8"></p>
+                <button class = orderbtn id= "orderbtn8">Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
